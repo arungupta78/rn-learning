@@ -11,7 +11,7 @@ export default function BoxScreen() {
 
 const styles = StyleSheet.create({
     viewStyle: {
-        alignItems: 'center',
+        // alignItems: 'flex-end',
         borderWidth: 3,
         borderColor: 'black',
         // flexDirection: 'row',
@@ -27,7 +27,10 @@ const styles = StyleSheet.create({
         borderWidth: 3,
         borderColor: 'red',
         // flex:2,
-        alignSelf: 'stretch'
+        // alignSelf: 'stretch',
+        // position: 'absolute',
+        fontSize: 18,
+        // left: 10
     },
     textThreeStyle: {
         borderWidth: 3,
